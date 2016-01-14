@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Reachability.h"
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+@interface FirstViewController : UIViewController <MKMapViewDelegate, CLLocationManagerDelegate, UISearchBarDelegate>
 
-@interface FirstViewController : UIViewController
 
 
 @end
